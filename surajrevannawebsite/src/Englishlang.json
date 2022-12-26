@@ -43,33 +43,34 @@
         "desc": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.agna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "newsItems": [
             {
-                "newsImg": "",
+                "newsImg": "news2.png",
                 "newstitle": "Dr. Suraj Revanna Cup 3.0 Trophy Launch event on 6th December 2022."
             },
             {
-                "newsImg": "",
+                "newsImg": "news2.png",
                 "newstitle": "First family of politics: JD(S) has a presence in every house in Karnataka, India."
             },
             {
-                "newsImg": "",
+                "newsImg": "news3.png",
                 "newstitle": "Dr. Suraj Revanna files papers."
             },
             {
-                "newsImg": "",
+                "newsImg": "news2.png",
                 "newstitle": "Dr. Suraj Revanna wins from over 1000 votes in Hassan | Karnataka MLC Election Results 2021."
             },
             {
-                "newsImg": "",
+                "newsImg": "news2.png",
                 "newstitle": "Ex-PM Devegowda's grandson Suraj Revanna enters politics, files nomination for MLC election."
             },
             {
-                "newsImg": "",
+                "newsImg": "news2.png",
                 "newstitle": "Kumaraswamy announces Dr. Suraj Revanna as MLC candidate from Hassan."
             }
         ]
     },
     "siteGallery": {
-        "title": "Gallry"
+        "title": "Gallry",
+        "images":["gallery1.png","gallery2.png","gallery3.png","gallery4.png","gallery5.png","gallery6.png"]
     },
     "siteInitiatives": {
         "title": "Initiatives",
@@ -82,6 +83,8 @@
     },
     "siteContact": {
         "title": "Get In Touch",
+        "image":"contact.jpg",
+        "backgroundImg":"contactBack.png",
         "inputPlaceholders": [
             "Hey, Tell your name",
             "What's your mail Id",

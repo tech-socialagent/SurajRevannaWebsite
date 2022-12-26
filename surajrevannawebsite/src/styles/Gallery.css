@@ -1,0 +1,14 @@
+.galleryPage{
+    background-color: var(--base-background-color);
+}
+.imageItem img{
+    width: 300px;
+    height: 400px;
+    border-radius: 6px;
+    margin: 20px;
+}
+.galleryPage .sectionbody{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
