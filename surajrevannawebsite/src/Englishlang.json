@@ -22,6 +22,7 @@
     "siteAbout": {
         "title": "About Dr. Suraj Revanna",
         "desc": "Dr. Suraj Revanna is a member of the Karnataka Legislative Assembly, representing the Holenarasipura constituency in Hassan district. He was elected as the constituency's MP on November 19, 2019. His political party is the Janata Dal (Secular), and he is the eighth member of the H.D Devegowda family to enter politics.",
+        "img": "aboutImg.jpg",
         "body": [
             {
                 "title": "Education",
