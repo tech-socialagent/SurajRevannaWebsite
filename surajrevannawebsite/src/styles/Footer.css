@@ -1,0 +1,23 @@
+.appFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.copyright{
+    text-align: center;
+}
+.socialLinks{
+    display: flex;
+}
+.socialLinks a:hover{
+    color: var(--primary-color);
+}
+.socialLinks a{
+    color: var(--black) ;
+}
+.fIcons{
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px;
+}
