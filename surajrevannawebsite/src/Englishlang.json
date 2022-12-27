@@ -1,6 +1,6 @@
 {
     "siteHeader": {
-        "appLogo":"",
+        "appLogo": "",
         "headerRoutes": [
             "Home",
             "About",
@@ -70,7 +70,14 @@
     },
     "siteGallery": {
         "title": "Gallry",
-        "images":["gallery1.png","gallery2.png","gallery3.png","gallery4.png","gallery5.png","gallery6.png"]
+        "images": [
+            "gallery1.png",
+            "gallery2.png",
+            "gallery3.png",
+            "gallery4.png",
+            "gallery5.png",
+            "gallery6.png"
+        ]
     },
     "siteInitiatives": {
         "title": "Initiatives",
@@ -83,8 +90,8 @@
     },
     "siteContact": {
         "title": "Get In Touch",
-        "image":"contact.jpg",
-        "backgroundImg":"contactBack.png",
+        "image": "contact.jpg",
+        "backgroundImg": "contactBack.png",
         "inputPlaceholders": [
             "Hey, Tell your name",
             "What's your mail Id",
@@ -93,7 +100,11 @@
         ],
         "submitBtn": "Submit"
     },
-    "siteFooter":{
-        "copyText":["Copyright © 2022 Suraj Revanna","All Rights Reserved.","Terms and Conditions | Privacy Policy"]
+    "siteFooter": {
+        "copyText": [
+            "Copyright © 2022 Suraj Revanna",
+            "All Rights Reserved.",
+            "Terms and Conditions | Privacy Policy"
+        ]
     }
 }

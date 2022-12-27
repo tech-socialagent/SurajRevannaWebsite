@@ -1,14 +1,14 @@
 {
     "siteHeader": {
-        "appLogo":"",
+        "appLogo": "",
         "headerRoutes": [
-            "Home",
-            "About",
-            "Press",
-            "Gallery",
-            "Initiatives"
+            "ಹೋಮ್",
+            "ಅವರ ಬಗ್ಗೆ",
+            "ಮಾಧ್ಯಮ",
+            "ಗ್ಯಾಲರಿ",
+            "ಉಪಕ್ರಮಗಳು"
         ],
-        "contactBtn": "Get In Touch",
+        "contactBtn": "ಸಂಪರ್ಕಿಸಿ",
         "langBtns": [
             "English",
             "Kannada"
@@ -22,6 +22,7 @@
     "siteAbout": {
         "title": "ಡಾ .ಸೂರಜ್ ರೇವಣ್ಣ  ಅವರ ಬಗ್ಗೆ",
         "desc": "ಡಾ. ಸೂರಜ್ ರೇವಣ್ಣ ಅವರು ಹಾಸನ ಜಿಲ್ಲೆಯ ಹೊಳೆನರಸೀಪುರ ಕ್ಷೇತ್ರವನ್ನು ಪ್ರತಿನಿಧಿಸುವ ಕರ್ನಾಟಕ ವಿಧಾನಸಭೆಯ ಸದಸ್ಯರಾಗಿದ್ದಾರೆ. ನವೆಂಬರ್ ೧೯, ೨೦೧೯ ರಂದು ಅವರು ಕ್ಷೇತ್ರದ ಸಂಸದರಾಗಿ ಆಯ್ಕೆಯಾದರು. ಅವರ ರಾಜಕೀಯ ಪಕ್ಷ ಜನತಾ ದಳ (ಜಾತ್ಯತೀತ), ಮತ್ತು ಅವರು ಎಚ್‌ಡಿ ದೇವೇಗೌಡ ಕುಟುಂಬದ ಎಂಟನೇ ಸದಸ್ಯರಾಗಿ ರಾಜಕೀಯ ಪ್ರವೇಶಿಸಿದ್ದಾರೆ.",
+        "img": "aboutImg.jpg",
         "body": [
             {
                 "title": "ಶಿಕ್ಷಣ",
@@ -42,45 +43,55 @@
         "desc": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.agna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "newsItems": [
             {
-                "newsImg": "",
+                "newsImg": "news2.png",
                 "newstitle": "ಮೈಸೂರಿನಲ್ಲಿ ಡಾ.ಸೂರಜ್ ರೇವಣ್ಣ ಕಪ್ 3.0 ಟ್ರೋಫಿ ಅನಾವರಣ ಕಾರ್ಯಕ್ರಮ"
             },
             {
-                "newsImg": "",
+                "newsImg": "news2.png",
                 "newstitle": "ರಾಜಕೀಯದ ಮೊದಲ ಕುಟುಂಬ: ಭಾರತದ ಕರ್ನಾಟಕದ ಪ್ರತಿ ಸದನದಲ್ಲಿ ಜೆಡಿಎಸ್ ಅಸ್ತಿತ್ವವನ್ನು ಹೊಂದಿದೆ"
             },
             {
-                "newsImg": "",
+                "newsImg": "news3.png",
                 "newstitle": "ಸೂರಜ್ ರೇವಣ್ಣ ದಾಖಲೆ ಸಲ್ಲಿಸಿದರು"
             },
             {
-                "newsImg": "",
+                "newsImg": "news2.png",
                 "newstitle": "ಹಾಸನದಲ್ಲಿ ೧೦೦೦ ಮತಗಳಿಂದ ಡಾ.ಸೂರಜ್ ರೇವಣ್ಣ ಗೆಲುವು | ಕರ್ನಾಟಕವಿಧಾನ ಪರಿಷತ್ ಶಾಸಕರು ಚುನಾವಣಾ ಫಲಿತಾಂಶಗಳು ೨೦೨೧"
             },
             {
-                "newsImg": "",
+                "newsImg": "news2.png",
                 "newstitle": "ಮಾಜಿ ಪ್ರಧಾನಿ ದೇವೇಗೌಡರ ಮೊಮ್ಮಗ ಸೂರಜ್ ರೇವಣ್ಣ ರಾಜಕೀಯಕ್ಕೆ ಎಂಟ್ರಿ! ವಿಧಾನ  ಪರಿಷತ್ ಶಾಸಕರು  ಚುನಾವಣೆಗೆ ನಾಮನಿರ್ದೇಶನ"
             },
             {
-                "newsImg": "",
+                "newsImg": "news2.png",
                 "newstitle": "ಹಾಸನದಿಂದ ಎಂಎಲ್ ಸಿ ಅಭ್ಯರ್ಥಿಯಾಗಿ ಡಾ.ಸೂರಜ್ ರೇವಣ್ಣ ಅವರನ್ನು ಕುಮಾರಸ್ವಾಮಿ ಘೋಷಿಸಿದ್ದಾರೆ"
             }
         ]
     },
     "siteGallery": {
-        "title": "Gallry"
+        "title": "Gallry",
+        "images": [
+            "gallery1.png",
+            "gallery2.png",
+            "gallery3.png",
+            "gallery4.png",
+            "gallery5.png",
+            "gallery6.png"
+        ]
     },
     "siteInitiatives": {
         "title": "ಉಪಕ್ರಮಗಳು",
         "iniItems": [
             {
-                "imgUrl": "",
+                "imgUrl": "initiatives1.png",
                 "desc": "ಡಾ. ಸೂರಜ್ ರೇವಣ್ಣ ಸ್ಫೋರ್ಟ್ಸ್ ಅಂಡ್ ಕಲ್ಚರ್ ಅಸೋಸಿಯೇಷನ್ ವತಿಯಿಂದ ಮೈಸೂರಿನ ಲಲಿತ ಮಹಲ್ ಆವರಣದಲ್ಲಿ ಆಯೋಜಿಸಿರುವ ಡಾ.ಸೂರಜ್ ರೇವಣ್ಣ ಕಪ್ 3.0 ಟ್ರೋಫಿ ಲಾಂಚಿಂಗ್ ಕಾರ್ಯಕ್ರಮದ ಬಗ್ಗೆ ಸಭೆಯಲ್ಲಿ ಸುದೀರ್ಘವಾಗಿ ಚರ್ಚಿಸಲಾಯಿತು."
             }
         ]
     },
     "siteContact": {
         "title": "ಸಂಪರ್ಕಿಸಿ",
+        "image": "contact.jpg",
+        "backgroundImg": "contactBack.png",
         "inputPlaceholders": [
             "ನಿಮ್ಮ ಹೆಸರು ಹೇಳಿ",
             "ನಿಮ್ಮ ಮೇಲ್ ಐಡಿ ಏನು",
@@ -89,7 +100,11 @@
         ],
         "submitBtn": "ಸಲ್ಲಿಸಿ"
     },
-    "siteFooter":{
-        "copyText":["ಕೃತಿಸ್ವಾಮ್ಯ © 2022 ಸೂರಜ್ ರೇವಣ್ಣ","ಎಲ್ಲ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ.","ನಿಯಮಗಳು ಮತ್ತು ನಿಬಂಧನೆಗಳು | ಗೌಪ್ಯತಾ ನೀತಿ"]
+    "siteFooter": {
+        "copyText": [
+            "ಕೃತಿಸ್ವಾಮ್ಯ © 2022 ಸೂರಜ್ ರೇವಣ್ಣ",
+            "ಎಲ್ಲ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ.",
+            "ನಿಯಮಗಳು ಮತ್ತು ನಿಬಂಧನೆಗಳು | ಗೌಪ್ಯತಾ ನೀತಿ"
+        ]
     }
 }
