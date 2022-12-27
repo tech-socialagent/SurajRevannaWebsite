@@ -51,7 +51,7 @@ const Navbar = () => {
             <a href="#initiatives">{Lang.siteHeader.headerRoutes[4]}</a>
           </li>
         </ul>
-        <a className="get_quote_btn nav-btn" href={"#getquote"}>
+        <a className="get_quote_btn nav-btn" href={"#contact"}>
           {Lang.siteHeader.contactBtn}
         </a>
         {/* language change button */}

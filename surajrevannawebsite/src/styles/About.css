@@ -5,6 +5,7 @@ section {
   display: grid;
   grid-template-columns: 2fr 0.5fr 1fr;
   background-color: var(--base-background-color);
+  padding-top: 100px;
 }
 .sectionHeaderTitle {
   display: flex;

@@ -5,6 +5,9 @@
   --base-background-color: #F3F3F3;
   --black: #000000
 }
+html{
+  scroll-behavior: smooth;
+}
 *{
   box-sizing: border-box;
   margin: 0;
