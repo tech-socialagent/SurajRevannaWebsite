@@ -58,3 +58,9 @@ section {
     margin-right: auto;
   }
 }
+
+@media only screen and (max-width:900px ) and (min-width:401px){
+  section {
+      padding: 40px 50px;
+  }
+}

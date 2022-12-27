@@ -69,8 +69,10 @@ input {
   transform: scale(1.1, 1.1);
 }
 
-@media only screen and (max-width: 400px) {
- 
+@media only screen and (max-width: 900px) {
+  .conatctForm{
+    height: auto;
+  }
   .contactBanner img {
     display: none;
   }
