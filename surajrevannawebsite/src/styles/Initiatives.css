@@ -1,0 +1,25 @@
+.initiativeItem{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+.initiativeItem .initiativeTitle{
+    padding: 50px;
+}
+
+.initiativeImage {
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    height: 300px;
+    width: 300px;
+}
+.initiativeImage img {
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.56) 9.11%, rgba(0, 0, 0, 0) 100%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
