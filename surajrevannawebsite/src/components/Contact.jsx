@@ -1,6 +1,7 @@
 import React from "react";
 import English from "../Englishlang.json";
 import "../styles/Contact.css";
+import {BsArrowRightCircle} from 'react-icons/bs'
 
 const Contact = () => {
   return (
@@ -41,6 +42,10 @@ const Contact = () => {
               className="formData"
               placeholder={English.siteContact.inputPlaceholders[3]}
             />
+            <div className="formSubmit"> 
+            <div>{English.siteContact.submitBtn}</div>
+            <BsArrowRightCircle/>
+            </div>
           </div>
         </div>
       </div>

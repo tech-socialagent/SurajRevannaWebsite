@@ -3,7 +3,7 @@
 }
 .contactBanner img {
   width: 440px;
-  height: 100%;
+  height: 600px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -15,9 +15,11 @@
   margin: 30px 0px;
 }
 .formView {
+  flex: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content:center ;
+  padding: 50px;
 }
 input::placeholder {
   color: #b0b0b0;
@@ -30,6 +32,7 @@ input {
   border-right: none;
   border-left: none;
   padding: 15px;
+  margin-bottom: 20px;
 
   font-weight: 500;
   font-size: 20px;
@@ -45,4 +48,23 @@ input {
 
 .contactPage .sectionTitle {
   color: white;
+}
+
+.formSubmit{
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 10px;
+  transition: all .5s;
+  margin-top: 20px;
+}
+.formSubmit div{
+  margin: 0px 5px;
+}
+.formSubmit:hover{
+  transform:  scale(1.1,1.1);
 }
