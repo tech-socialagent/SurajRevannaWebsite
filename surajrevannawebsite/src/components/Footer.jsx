@@ -23,7 +23,7 @@ const Footer = () => {
 
   return (
     <div className="appFooter" id="appFooter">
-      <div className="appLogo">Suraj Revanna</div>
+      <div className="appLogo">{Lang.siteHeader.appLogo}</div>
       <div className="copyright">
         {Lang.siteFooter.copyText.map(item=>{
             return(

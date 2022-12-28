@@ -17,19 +17,23 @@ import Home from "./components/Home";
 function App() {
   useEffect(() => {
     window.addEventListener("scroll", () => {
+      if (document.documentElement.scrollTop === 0) {
+        document.querySelector(".Nav_body").classList.remove("white_bg");
+        console.log("oh no");
+      }
+
       if (
-        document.documentElement.scrollTop + window.innerHeight + 1 >=
-        document.querySelector(".homeBody").scrollHeight
+        // document.documentElement.scrollTop + window.innerHeight + 1 >
+        document.documentElement.scrollTop + 1 >
+        1
       ) {
         document.querySelector(".Nav_body").classList.add("white_bg");
         document.querySelector(".nav_item a").classList.add("white_bg_text");
 
-        console.log("oh yes");
-      } else {
-        document.querySelector(".Nav_body").classList.remove("white_bg");
+        console.log("oh yes " + document.documentElement.scrollTop);
       }
     });
-  });
+  }, []);
 
   return (
     <div className="appBody-main">
@@ -48,7 +52,7 @@ function App() {
       </div>
       <div className="appBodyPages">
         <Navbar />
-        <Home/>
+        <Home />
         <About />
         <News />
         <Gallery />

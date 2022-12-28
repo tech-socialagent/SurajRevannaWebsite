@@ -22,7 +22,7 @@ const Home = () => {
         <div className="homeSubtitle">{Lang.siteHome.homeSubTitle}</div>
       </div>
       {/* <div className="homeImage">
-        <img src={require("../assests/"+Lang.siteHome.homeImage)} alt="" />
+        <img src={require("../assests/Annaphoto.png")} alt="" />
       </div> */}
     </div>
   );

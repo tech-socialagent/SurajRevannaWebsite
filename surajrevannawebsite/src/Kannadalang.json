@@ -1,6 +1,6 @@
 {
     "siteHeader": {
-        "appLogo": "",
+        "appLogo": "ಡಾ.ಸೂರಜ್ ರೇವಣ್ಣ",
         "headerRoutes": [
             "ಹೋಮ್",
             "ಅವರ ಬಗ್ಗೆ",
@@ -17,7 +17,7 @@
     "siteHome": {
         "homeTitle": "ಡಾ.ಸೂರಜ್ ರೇವಣ್ಣ",
         "homeSubTitle": "ವಿಧಾನ ಪರಿಷತ್ ಶಾಸಕರು , ಹಾಸನ",
-        "homeImage": "landingpage.png"
+        "homeImage": "landingpage.jpg"
     },
     "siteAbout": {
         "title": "ಡಾ .ಸೂರಜ್ ರೇವಣ್ಣ  ಅವರ ಬಗ್ಗೆ",
@@ -43,27 +43,27 @@
         "desc": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.agna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "newsItems": [
             {
-                "newsImg": "news2.png",
+                "newsImg": "news1.jpg",
                 "newstitle": "ಮೈಸೂರಿನಲ್ಲಿ ಡಾ.ಸೂರಜ್ ರೇವಣ್ಣ ಕಪ್ 3.0 ಟ್ರೋಫಿ ಅನಾವರಣ ಕಾರ್ಯಕ್ರಮ"
             },
             {
-                "newsImg": "news2.png",
+                "newsImg": "news2.jpg",
                 "newstitle": "ರಾಜಕೀಯದ ಮೊದಲ ಕುಟುಂಬ: ಭಾರತದ ಕರ್ನಾಟಕದ ಪ್ರತಿ ಸದನದಲ್ಲಿ ಜೆಡಿಎಸ್ ಅಸ್ತಿತ್ವವನ್ನು ಹೊಂದಿದೆ"
             },
             {
-                "newsImg": "news3.png",
+                "newsImg": "news3.jpg",
                 "newstitle": "ಸೂರಜ್ ರೇವಣ್ಣ ದಾಖಲೆ ಸಲ್ಲಿಸಿದರು"
             },
             {
-                "newsImg": "news2.png",
+                "newsImg": "news4.jpg",
                 "newstitle": "ಹಾಸನದಲ್ಲಿ ೧೦೦೦ ಮತಗಳಿಂದ ಡಾ.ಸೂರಜ್ ರೇವಣ್ಣ ಗೆಲುವು | ಕರ್ನಾಟಕವಿಧಾನ ಪರಿಷತ್ ಶಾಸಕರು ಚುನಾವಣಾ ಫಲಿತಾಂಶಗಳು ೨೦೨೧"
             },
             {
-                "newsImg": "news2.png",
+                "newsImg": "news5.jpg",
                 "newstitle": "ಮಾಜಿ ಪ್ರಧಾನಿ ದೇವೇಗೌಡರ ಮೊಮ್ಮಗ ಸೂರಜ್ ರೇವಣ್ಣ ರಾಜಕೀಯಕ್ಕೆ ಎಂಟ್ರಿ! ವಿಧಾನ  ಪರಿಷತ್ ಶಾಸಕರು  ಚುನಾವಣೆಗೆ ನಾಮನಿರ್ದೇಶನ"
             },
             {
-                "newsImg": "news2.png",
+                "newsImg": "news6.jpg",
                 "newstitle": "ಹಾಸನದಿಂದ ಎಂಎಲ್ ಸಿ ಅಭ್ಯರ್ಥಿಯಾಗಿ ಡಾ.ಸೂರಜ್ ರೇವಣ್ಣ ಅವರನ್ನು ಕುಮಾರಸ್ವಾಮಿ ಘೋಷಿಸಿದ್ದಾರೆ"
             }
         ]

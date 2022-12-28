@@ -16,7 +16,12 @@
   text-decoration: none;
   color: var(--black-color);
 }
-
+.Nav_body .app_logo{
+  font-weight: 600;
+  font-size: 30px;
+  color: var(--primary-color);
+  text-shadow: 0px 0px 1px black;
+}
 .app_logo img {
   height: 50px;
   width: 160px;
@@ -124,7 +129,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 900px) {
   .Nav_body {
     padding: 0px 10px;
     background-color: #f3f3f3;
@@ -157,5 +162,9 @@
     display: block;
     font-size: 30px;
     transition: all 1s;
+  }
+
+  .Nav_body .app_logo{
+    font-size: 25px;
   }
 }

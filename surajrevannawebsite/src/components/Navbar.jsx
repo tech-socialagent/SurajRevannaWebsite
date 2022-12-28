@@ -27,7 +27,8 @@ const Navbar = () => {
   return (
     <div className="Nav_body">
       <div className="app_logo">
-        <a href="/">{/* <img src={require("")} alt="" /> */}</a>
+        {Lang.siteHeader.appLogo}
+        {/* <a href="/"><img src={require("")} alt="" /></a> */}
       </div>
       <div className="menu_bar" onClick={navMenuToggle}>
         {!menuBtn ? <BiMenu /> : <BiX />}

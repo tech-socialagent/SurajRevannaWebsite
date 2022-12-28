@@ -4,6 +4,10 @@
     align-items: center;
     padding: 20px;
 }
+.appFooter .appLogo{
+    font-weight: 700;
+    font-size: 25px;
+}
 .copyright{
     text-align: center;
 }
