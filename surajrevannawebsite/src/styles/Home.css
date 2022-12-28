@@ -1,0 +1,30 @@
+.homeBody {
+  background-image: url("../assests/landingpage.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.homeText {
+  width: 400px;
+  position: relative;
+  left: 200px;
+}
+.homeTitle {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 90px;
+  text-shadow: 3px 3px 2px black;
+  color: #ffffff;
+}
+.homeSubtitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
+  color: #ffffff;
+  text-align: end;
+}

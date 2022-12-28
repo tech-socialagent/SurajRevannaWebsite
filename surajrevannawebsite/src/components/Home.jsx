@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Home.css";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import { useSelector } from "react-redux";
 import English from "../Englishlang.json";
 import Kannada from "../Kannadalang.json";
@@ -21,9 +21,9 @@ const Home = () => {
         <div className="homeTitle">{Lang.siteHome.homeTitle}</div>
         <div className="homeSubtitle">{Lang.siteHome.homeSubTitle}</div>
       </div>
-      <div className="homeImage">
+      {/* <div className="homeImage">
         <img src={require("../assests/"+Lang.siteHome.homeImage)} alt="" />
-      </div>
+      </div> */}
     </div>
   );
 };

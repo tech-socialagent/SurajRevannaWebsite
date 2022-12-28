@@ -12,14 +12,14 @@ import {
   AiFillFacebook,
   AiFillInstagram,
 } from "react-icons/ai";
+import Home from "./components/Home";
 
 function App() {
   useEffect(() => {
     window.addEventListener("scroll", () => {
       if (
         document.documentElement.scrollTop + window.innerHeight + 1 >=
-        document.documentElement.scrollHeight
-        //document.querySelector(".home_body").scrollHeight
+        document.querySelector(".homeBody").scrollHeight
       ) {
         document.querySelector(".Nav_body").classList.add("white_bg");
         document.querySelector(".nav_item a").classList.add("white_bg_text");
@@ -48,6 +48,7 @@ function App() {
       </div>
       <div className="appBodyPages">
         <Navbar />
+        <Home/>
         <About />
         <News />
         <Gallery />
