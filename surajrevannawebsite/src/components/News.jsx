@@ -22,7 +22,7 @@ const News = () => {
           <h3 className="sectionTitle">{Lang.siteNews.title}</h3>
           <div className="title_downbar"></div>
         </div>
-        <div className="sectionDesc">{Lang.siteNews.desc}</div>
+        {/* <div className="sectionDesc">{Lang.siteNews.desc}</div> */}
       </div>
       <div className="sectionbody">
         {Lang.siteNews.newsItems.map((item) => {

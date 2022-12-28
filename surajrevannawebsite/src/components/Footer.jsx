@@ -32,13 +32,13 @@ const Footer = () => {
         })}
       </div>
       <div className="socialLinks">
-        <a href="/">
+        <a href="/" id="iconTwitter">
           <AiFillTwitterCircle  className="fIcons"/>
         </a>
-        <a href="/">
+        <a href="/" id="iconFacebook">
           <AiFillFacebook className="fIcons"/>
         </a>
-        <a href="/">
+        <a href="/" id="iconInstagram">
           <AiFillInstagram className="fIcons"/>
         </a>
       </div>

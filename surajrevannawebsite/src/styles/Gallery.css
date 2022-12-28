@@ -10,5 +10,11 @@
 .galleryPage .sectionbody{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
+
+/* @media only screen and (min-width: 1300px){
+    .galleryPage .sectionbody{
+        justify-content: center;
+    }
+} */

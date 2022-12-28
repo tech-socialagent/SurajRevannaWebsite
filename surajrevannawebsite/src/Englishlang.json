@@ -4,7 +4,7 @@
         "headerRoutes": [
             "Home",
             "About",
-            "Press",
+            "News",
             "Gallery",
             "Initiatives"
         ],
@@ -17,7 +17,7 @@
     "siteHome": {
         "homeTitle": "Dr. Suraj Revanna",
         "homeSubTitle": "MLC Hassan District",
-        "homeImage": ""
+        "homeImage": "landingpage.png"
     },
     "siteAbout": {
         "title": "About Dr. Suraj Revanna",
@@ -69,7 +69,7 @@
         ]
     },
     "siteGallery": {
-        "title": "Gallry",
+        "title": "ಗ್ಯಾಲರಿ",
         "images": [
             "gallery1.png",
             "gallery2.png",

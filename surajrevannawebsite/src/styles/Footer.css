@@ -10,8 +10,17 @@
 .socialLinks{
     display: flex;
 }
-.socialLinks a:hover{
+/* .socialLinks a:hover{
     color: var(--primary-color);
+} */
+#iconTwitter:hover{
+    color: skyblue;
+}
+#iconFacebook:hover{
+    color: blue;
+}
+#iconInstagram:hover{
+    color: #FD1D1D;
 }
 .socialLinks a{
     color: var(--black) ;

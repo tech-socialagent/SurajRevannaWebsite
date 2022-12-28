@@ -2,7 +2,7 @@ import React from "react";
 import English from "../Englishlang.json";
 import Kannada from '../Kannadalang.json';
 import "../styles/Contact.css";
-import {BsArrowRightCircle} from 'react-icons/bs';
+import {BsArrowRightShort} from 'react-icons/bs';
 import { useSelector } from "react-redux";
 import { useState, useEffect } from "react";
   
@@ -57,7 +57,7 @@ const Contact = () => {
             />
             <div className="formSubmit"> 
             <div>{Lang.siteContact.submitBtn}</div>
-            <BsArrowRightCircle/>
+            <BsArrowRightShort/>
             </div>
           </div>
         </div>
