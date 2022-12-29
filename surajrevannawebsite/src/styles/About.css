@@ -50,7 +50,7 @@ section {
   margin-bottom: auto;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   section{
     padding: 20px 20px;
   }
@@ -63,12 +63,13 @@ section {
     margin-right: auto;
   }
 }
-
-@media only screen and (max-width:900px ) and (min-width:401px){
+/* and (min-width: 401px) */
+@media only screen and (max-width: 900px) and (min-width: 451px){
   section {
       padding: 40px 50px;
   }
 }
+
 @media only screen and (min-width: 1300px){
   section{
     padding: 50px 200px;

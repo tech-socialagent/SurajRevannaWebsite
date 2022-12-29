@@ -165,6 +165,7 @@
     margin: 20px 0px;
     font-size: var(--text-medium);
     font-weight: var(--weight-semibold);
+    text-align: left;
   }
   .menu_bar {
     display: flex;

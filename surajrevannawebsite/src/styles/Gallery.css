@@ -13,8 +13,13 @@
     justify-content: space-between;
 }
 
-/* @media only screen and (min-width: 1300px){
-    .galleryPage .sectionbody{
-        justify-content: center;
+@media only screen and (max-width: 500px){
+    .imageItem img{
+        width: 150px;
+        height: 160px;
+        margin: 5px;
     }
-} */
+    .galleryPage .sectionbody{
+        justify-content: space-evenly;
+    }
+}

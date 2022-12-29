@@ -31,7 +31,7 @@
 
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 450px){
   .homeBody{
     background-image: url("../assests/phonebanner.jpg");
     width: 100%;
