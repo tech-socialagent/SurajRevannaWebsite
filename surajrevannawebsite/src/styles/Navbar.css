@@ -71,7 +71,11 @@
   padding: 5px 20px;
   color: var(--black-color);
 }
-
+.nav_menuPart{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
 /* dropdown */
 .dropbtn {
   /* background-color: #4CAF50; */
@@ -140,7 +144,6 @@
     background-color: #f3f3f3;
     box-shadow: 0px 0px 10px 0px black;
   }
-
   .nav_menu {
     flex-direction: column;
     padding: 50px 0px;
@@ -164,7 +167,8 @@
     font-weight: var(--weight-semibold);
   }
   .menu_bar {
-    display: block;
+    display: flex;
+    align-items: center;
     font-size: 30px;
     transition: all 1s;
   }
@@ -172,4 +176,8 @@
   .Nav_body .app_logo{
     font-size: 25px;
   }
+  .dropbtn{
+    margin: 0px 5px;
+  }
+
 }

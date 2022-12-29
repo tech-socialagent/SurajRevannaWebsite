@@ -30,31 +30,12 @@ const Navbar = () => {
         {Lang.siteHeader.appLogo}
         {/* <a href="/"><img src={require("")} alt="" /></a> */}
       </div>
-      <div className="menu_bar" onClick={navMenuToggle}>
-        {!menuBtn ? <BiMenu /> : <BiX />}
-      </div>
-    
-      <div className="nav_menu">
-        <ul className="nav_items">
-          <li className="nav_item">
-            <a href="#home">{Lang.siteHeader.headerRoutes[0]}</a>
-          </li>
-          <li className="nav_item">
-            <a href="#about">{Lang.siteHeader.headerRoutes[1]}</a>
-          </li>
-          <li className="nav_item">
-            <a href="#news">{Lang.siteHeader.headerRoutes[2]}</a>
-          </li>
-          <li className="nav_item">
-            <a href="#gallery">{Lang.siteHeader.headerRoutes[3]}</a>
-          </li>
-          <li className="nav_item">
-            <a href="#initiatives">{Lang.siteHeader.headerRoutes[4]}</a>
-          </li>
-        </ul>
-        <a className="get_quote_btn nav-btn" href={"#contact"}>
-          {Lang.siteHeader.contactBtn}
-        </a>
+
+      <div className="nav_menuPart">
+        <div className="menu_bar" onClick={navMenuToggle}>
+          {!menuBtn ? <BiMenu /> : <BiX />}
+        </div>
+
         {/* language change button */}
         <div className="dropdown" style={{ float: "right" }}>
           <button className="dropbtn">
@@ -68,8 +49,30 @@ const Navbar = () => {
             <div onClick={() => dispath(toKannada())}>Kannada</div>
           </div>
         </div>
+        {/* nav menus */}
+        <div className="nav_menu">
+          <ul className="nav_items">
+            <li className="nav_item">
+              <a href="#home">{Lang.siteHeader.headerRoutes[0]}</a>
+            </li>
+            <li className="nav_item">
+              <a href="#about">{Lang.siteHeader.headerRoutes[1]}</a>
+            </li>
+            <li className="nav_item">
+              <a href="#news">{Lang.siteHeader.headerRoutes[2]}</a>
+            </li>
+            <li className="nav_item">
+              <a href="#gallery">{Lang.siteHeader.headerRoutes[3]}</a>
+            </li>
+            <li className="nav_item">
+              <a href="#initiatives">{Lang.siteHeader.headerRoutes[4]}</a>
+            </li>
+          </ul>
+          <a className="get_quote_btn nav-btn" href={"#contact"}>
+            {Lang.siteHeader.contactBtn}
+          </a>
+        </div>
       </div>
-
     </div>
   );
 };
