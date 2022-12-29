@@ -30,7 +30,7 @@
             },
             {
                 "title": "Family",
-                "desc": "Dr Suraj Revanna is the grandson of JD (Secular) Supremo and former Prime Minister of India H. D. Deve Gowda. He is son of Bhavani Revanna who was the member of the Hassan Zilla Panchayat, and HD Revanna who was former Minister for Public Works Department in Karnataka state. He is married to Sagarika Ramesh.Former Chief Minister of Karnataka, H. D. Kumaraswamy is his uncle and Suraj's younger brother Prajwal Revanna is the member of the 17th Lok Sabha from Hassan Constituency."
+                "desc": "Dr. Suraj Revanna is the grandson of JD (Secular) Supremo and former Prime Minister of India H.D. Deve Gowda. He is son of Bhavani Revanna who was the member of the Hassan Zilla Panchayat, and H.D. Revanna who was former Minister for Public Works Department in Karnataka state. He is married to Sagarika Ramesh.Former Chief Minister of Karnataka, H. D. Kumaraswamy is his uncle and Suraj's younger brother Prajwal Revanna is the member of the 17th Lok Sabha from Hassan Constituency."
             },
             {
                 "title": "Political Career",
@@ -44,27 +44,33 @@
         "newsItems": [
             {
                 "newsImg": "news1.jpg",
-                "newstitle": "Dr. Suraj Revanna Cup 3.0 Trophy Launch event on 6th December 2022."
+                "newstitle": "Dr. Suraj Revanna Cup 3.0 Trophy Launch event on 6th December 2022.",
+                "newsUrl":"https://www.youtube.com/embed/vn-r45PzRFQ"
             },
             {
                 "newsImg": "news2.jpg",
-                "newstitle": "First family of politics: JD(S) has a presence in every house in Karnataka, India."
+                "newstitle": "First family of politics: JD(S) has a presence in every house in Karnataka, India.",
+                "newsUrl":"https://www.thehindu.com/news/national/karnataka/first-family-of-politics-jds-has-a-presence-in-every-house-in-karnataka/article37958173.ece"
             },
             {
                 "newsImg": "news3.jpg",
-                "newstitle": "Dr. Suraj Revanna files papers."
+                "newstitle": "Dr. Suraj Revanna files papers.",
+                "newsUrl":"https://www.thehindu.com/news/national/karnataka/suraj-revanna-files-papers/article37586519.ece"
             },
             {
                 "newsImg": "news4.jpg",
-                "newstitle": "Dr. Suraj Revanna wins from over 1000 votes in Hassan | Karnataka MLC Election Results 2021."
+                "newstitle": "Dr. Suraj Revanna wins from over 1000 votes in Hassan | Karnataka MLC Election Results 2021.",
+                "newsUrl":"https://www.youtube.com/embed/MLrRJVNPWxQ"
             },
             {
                 "newsImg": "news5.jpg",
-                "newstitle": "Ex-PM Devegowda's grandson Suraj Revanna enters politics, files nomination for MLC election."
+                "newstitle": "Ex-PM Devegowda's grandson Suraj Revanna enters politics, files nomination for MLC election.",
+                "newsUrl":"https://www.newindianexpress.com/states/karnataka/2021/nov/19/ex-pm-devegowdas-grandson-suraj-revanna-enters-politics-files-nomination-for-mlc-election-2385699.html"
             },
             {
                 "newsImg": "news6.jpg",
-                "newstitle": "Kumaraswamy announces Dr. Suraj Revanna as MLC candidate from Hassan."
+                "newstitle": "Kumaraswamy announces Dr. Suraj Revanna as MLC candidate from Hassan.",
+                "newsUrl":"https://www.daijiworld.com/news/newsDisplay?newsID=895283"
             }
         ]
     },

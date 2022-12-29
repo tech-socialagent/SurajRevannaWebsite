@@ -60,6 +60,7 @@ input {
   margin-top: 20px;
   font-weight: 600;
   font-size: 25px;
+  padding-left: 15px;
 }
 
 .formSubmit:hover {

@@ -27,12 +27,12 @@ const News = () => {
       <div className="sectionbody">
         {Lang.siteNews.newsItems.map((item) => {
           return (
-            <div className="newsItem" key={item.newstitle}>
+            <a href={item.newsUrl} target="_blank" rel="noreferrer" className="newsItem" key={item.newstitle}>
               <div className="newsImage">
                 <img src={require("../assests/" + item.newsImg)} alt="" />
               </div>
               <div className="newsTitle">{item.newstitle}</div>
-            </div>
+            </a>
           );
         })}
       </div>

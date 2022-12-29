@@ -33,7 +33,7 @@ const Navbar = () => {
       <div className="menu_bar" onClick={navMenuToggle}>
         {!menuBtn ? <BiMenu /> : <BiX />}
       </div>
-
+    
       <div className="nav_menu">
         <ul className="nav_items">
           <li className="nav_item">
@@ -58,7 +58,7 @@ const Navbar = () => {
         {/* language change button */}
         <div className="dropdown" style={{ float: "right" }}>
           <button className="dropbtn">
-            {curLang.charAt(0).toUpperCase() + curLang.slice(1)}
+            {curLang.charAt(0).toUpperCase() + curLang.charAt(1)}
             <span>
               <BiCaretDown />
             </span>
@@ -69,6 +69,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+
     </div>
   );
 };
