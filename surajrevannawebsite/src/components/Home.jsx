@@ -16,7 +16,7 @@ const Home = () => {
   }, [curLang]);
 
   return (
-    <div className="homeBody">
+    <div className="homeBody" id="home">
       <div className="homeText">
         <div className="homeTitle">{Lang.siteHome.homeTitle}</div>
         <div className="homeSubtitle">{Lang.siteHome.homeSubTitle}</div>

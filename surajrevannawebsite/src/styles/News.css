@@ -1,12 +1,12 @@
 .newsImage {
     background-color: var(--primary-color);
     border-radius: 5px;
-    height: 220px;
-    width: 300px;
+    height: 250px;
+    width: 280px;
 }
 .newsImage img {
-  height: 220px;
-  width: 300px;
+  height: 100%;
+  width: 100%;
   border-radius: 5px;
   position: relative;
   top: 10px;
@@ -21,6 +21,10 @@
 .newsItem {
   width: 300px;
   margin: 40px 0px 0px 0px;
+  transition: all .3s;
+}
+.newsItem:hover{
+  transform: scale(1.2,1.2);
 }
 .newsPage .sectionbody {
   display: flex;

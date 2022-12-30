@@ -27,7 +27,10 @@ const Navbar = () => {
   return (
     <div className="Nav_body">
       <div className="app_logo">
+        <a href="/">
         {Lang.siteHeader.appLogo}
+        </a>
+          
         {/* <a href="/"><img src={require("")} alt="" /></a> */}
       </div>
 

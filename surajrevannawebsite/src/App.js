@@ -38,13 +38,13 @@ function App() {
   return (
     <div className="appBody-main">
       <div className="socialSideLinks">
-        <a href="/" id="iconTwitter">
+        <a target="_blank" rel="noreferrer" href="https://twitter.com/Dr_Surajrevanna" id="iconTwitter">
           <AiFillTwitterCircle className="fIcons" />
         </a>
-        <a href="/" id="iconFacebook">
+        <a target="_blank" rel="noreferrer" href="https://www.facebook.com/dr.surajrevanna.official/" id="iconFacebook">
           <AiFillFacebook className="fIcons" />
         </a>
-        <a href="/" id="iconInstagram">
+        <a target="_blank" rel="noreferrer" href="https://www.instagram.com/dr.surajrevanna_official/" id="iconInstagram">
           <AiFillInstagram className="fIcons" />
         </a>
         <div className="sideSocialLine"></div>
