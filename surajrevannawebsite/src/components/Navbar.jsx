@@ -5,6 +5,7 @@ import English from "../Englishlang.json";
 import Kannada from "../Kannadalang.json";
 import { useDispatch, useSelector } from "react-redux";
 import { toEnglish, toKannada } from "./store/store";
+import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   //redux store use lang
@@ -27,10 +28,8 @@ const Navbar = () => {
   return (
     <div className="Nav_body">
       <div className="app_logo">
-        <a href="/">
-        {Lang.siteHeader.appLogo}
-        </a>
-          
+        <a href="/">{Lang.siteHeader.appLogo}</a>
+
         {/* <a href="/"><img src={require("")} alt="" /></a> */}
       </div>
 
@@ -56,19 +55,29 @@ const Navbar = () => {
         <div className="nav_menu">
           <ul className="nav_items">
             <li className="nav_item">
-              <a href="#home">{Lang.siteHeader.headerRoutes[0]}</a>
+              <HashLink to={"/#home"}>
+                {Lang.siteHeader.headerRoutes[0]}
+              </HashLink>
             </li>
             <li className="nav_item">
-              <a href="#about">{Lang.siteHeader.headerRoutes[1]}</a>
+              <HashLink to={"/#about"}>
+                {Lang.siteHeader.headerRoutes[1]}
+              </HashLink>
             </li>
             <li className="nav_item">
-              <a href="#news">{Lang.siteHeader.headerRoutes[2]}</a>
+              <HashLink to={"/#news"}>
+                {Lang.siteHeader.headerRoutes[2]}
+              </HashLink>
             </li>
             <li className="nav_item">
-              <a href="#gallery">{Lang.siteHeader.headerRoutes[3]}</a>
+              <HashLink to={"/#gallery"}>
+                {Lang.siteHeader.headerRoutes[3]}
+              </HashLink>
             </li>
             <li className="nav_item">
-              <a href="#initiatives">{Lang.siteHeader.headerRoutes[4]}</a>
+              <HashLink to={"/#contact"}>
+                {Lang.siteHeader.headerRoutes[4]}
+              </HashLink>
             </li>
           </ul>
           <a className="get_quote_btn nav-btn" href={"#contact"}>

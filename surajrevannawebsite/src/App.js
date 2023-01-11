@@ -21,7 +21,7 @@ function App() {
         document.querySelector(".Nav_body").classList.remove("white_bg");
         console.log("oh no");
       }
-
+      
       if (
         // document.documentElement.scrollTop + window.innerHeight + 1 >
         document.documentElement.scrollTop + 1 >
@@ -51,7 +51,7 @@ function App() {
         <div className="sideText">SOCIALS</div>
       </div>
       <div className="appBodyPages">
-        <Navbar />
+        {/* <Navbar /> */}
         <Home />
         <About />
         <News />
